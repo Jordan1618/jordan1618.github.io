@@ -4,10 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CarrelPro — Artisan Carreleur</title>
-  <link href="https://fonts.googleapis.com/..." rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
@@ -265,7 +263,9 @@
       <div class="form-card">
         <h3>Formulaire de contact</h3>
         <p>Pour toute question, renseignement ou prise de rendez-vous.</p>
-        <form action="#" method="POST">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="7b3e2a42-4e3f-4fb8-853f-de1ae9b56adb">
+          <input type="hidden" name="subject" value="Nouveau contact - AtelocynusCarrelage">
           <div class="form-row">
             <div class="form-group">
               <label for="contact-nom">Nom complet</label>
@@ -310,7 +310,9 @@
       <div class="form-card">
         <h3>Formulaire de devis</h3>
         <p>Plus vous êtes précis, plus votre devis sera juste.</p>
-        <form action="#" method="POST">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="7b3e2a42-4e3f-4fb8-853f-de1ae9b56adb">
+          <input type="hidden" name="subject" value="Nouvelle demande de devis - AtelocynusCarrelage">
           <div class="form-row">
             <div class="form-group">
               <label for="devis-nom">Nom complet</label>
